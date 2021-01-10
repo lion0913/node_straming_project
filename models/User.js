@@ -33,5 +33,5 @@ const userSchema = mongoose.Schema ({
 
 const User = mongoose.model('User',userSchema)
 
-// 
+//User모델을 모듈 밖에서도 사용할 수 있게 하는 코드
 module.exports= {User}
